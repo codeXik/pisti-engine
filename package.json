@@ -1,0 +1,16 @@
+{
+  "name": "pisti-engine",
+  "version": "1.0.0",
+  "description": "Pişti için bağımlılıksız kural motoru ve bilgisayar oyuncusu / Dependency-free Pişti (Turkish card game) rules engine and computer player",
+  "license": "MIT",
+  "author": "Skynon Labs Ltd.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": ["src", "docs", "LICENSE", "README.md"],
+  "keywords": ["pisti", "pishti", "card-game", "game-engine", "ai"],
+  "repository": { "type": "git", "url": "git+https://github.com/codeXik/pisti-engine.git" },
+  "scripts": {
+    "test": "node --test test/engine.test.mjs"
+  }
+}
